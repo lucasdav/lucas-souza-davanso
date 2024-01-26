@@ -2,14 +2,15 @@ import Avatar from "../img/imagem-perfil.jpeg";
 import SocialNetworks from "./SocialNetworks";
 
 import "../styles/components/sidebar.sass";
+import InformationContainer from "./InformationContainer";
 
 const Sidebar = () => {
     return (
         <aside id="sidebar">
-            <img src={Avatar} alt="Lucas Souza Davanso" />
+            <img src={Avatar} alt="Lucas Souza Davanso"/>
             <p className="title">Software Developer</p>
             <SocialNetworks/>
-            <p>informações de contato</p>
+            <InformationContainer/>
             <a href="" className="btn">
                 Download currículo
             </a>
