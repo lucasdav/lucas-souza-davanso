@@ -20,7 +20,4 @@
         gap: 1rem
 
         &:after
-            content: ""
-            background: variables.$gradient
-            height: 3px
-            width: 30%
+            @include mixins.gradient-border
