@@ -3,7 +3,7 @@ import '../styles/components/certifications.sass'
 const Certifications = () => {
     return (
         <section className='certification-container'>
-            <h2>Licensas & Certificações</h2>
+            <h2>Certificados</h2>
             <div className="certification-grid">
                 
                 <div className="certification-card">                    
