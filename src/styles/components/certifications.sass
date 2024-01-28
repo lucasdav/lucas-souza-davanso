@@ -1,18 +1,21 @@
 @use '../variables'
 @use '../mixins'
 
-.experience-container
+.certification-container
     margin-bottom: 1rem
 
-    .experience-grid
+    .certification-grid
+        display: flex
+        flex-wrap: wrap
         gap: 1.5rem
 
-        .experience-card
+        .certification-card
             @include mixins.center
             justify-content: left
             gap: 1rem
             margin-bottom: .6rem
             padding: 1rem
+            width: 45%
             border: 1px solid #333
             border-radius: variables.$card-border-radius
 
