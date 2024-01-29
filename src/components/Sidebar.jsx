@@ -3,8 +3,24 @@ import SocialNetworks from "./SocialNetworks";
 
 import "../styles/components/sidebar.sass";
 import InformationContainer from "./InformationContainer";
+import html2pdf from 'html2pdf.js';
 
 const Sidebar = () => {
+
+const downloadPDF = function() {
+    var element = document.getElementById('portfolio');
+
+    const options = {
+        margin: [1, 1, 1, 1],
+        filename: "CV-Lucas-S-Davanso.pdf",
+        html2canvas: {scale: 2},
+        jsPDF: {unit: "mm", format: "a4", orientation:'portrait' }
+    }
+
+    html2pdf().set(options).from(element).save();
+
+}
+
     return (
         <aside id="sidebar">
             <img src={Avatar} alt="Lucas Souza Davanso"/>
@@ -12,7 +28,7 @@ const Sidebar = () => {
             <p className="title">Software Developer</p>
             <SocialNetworks/>
             <InformationContainer/>
-            <a href="" className="btn">
+            <a href="#" onClick={downloadPDF()} className="btn">
                 Download currículo
             </a>
         </aside>
