@@ -1,4 +1,4 @@
-import '../styles/components/certifications.sass'
+import './styles/certificationsPdf.sass'
 
 const CertificationPdf = () => {
     return (

@@ -19,7 +19,7 @@ import { FaAws, FaVuejs } from "react-icons/fa";
 
 
 
-import '../styles/components/technologiesContainer.sass'
+import './styles/technologiesContainerPdf.sass'
 
 const technologies = [
     { id: "html", name: "HTML5", icon: <DiHtml5 /> },

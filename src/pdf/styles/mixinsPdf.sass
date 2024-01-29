@@ -1,0 +1,19 @@
+@use 'variablesPdf'
+
+@mixin center
+    display: flex
+    justify-content: center
+    align-items: center
+
+@mixin btn
+    padding: 1rem 1.2rem
+    color: variablesPdf.$text-color
+    background: variablesPdf.$gradient
+    text-decoration: none
+    border-radius: 3rem
+
+@mixin gradient-border
+    content: ""
+    background: variablesPdf.$gradient
+    height: 3px
+    width: 30%

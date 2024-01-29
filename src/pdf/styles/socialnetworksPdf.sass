@@ -1,18 +1,18 @@
-@use '../variables'
-@use '../mixins'
+@use 'variablesPdf'
+@use 'mixinsPdf'
 
 #social-networks
-    @include mixins.center
+    @include mixinsPdf.center
     gap: 1rem
     margin: 1rem 0
 
     .social-btn
         padding: .6rem
-        background-color: variables.$bg-color-secondary
-        border-radius: variables.$card-border-radius
+        background-color: variablesPdf.$bg-color-secondary
+        border-radius: variablesPdf.$card-border-radius
         color: #333
         font-size: 1.3rem
-        @include mixins.center
+        @include mixinsPdf.center
 
     #linkedin
         color: #0072B1
@@ -21,6 +21,6 @@
         color: #111
 
     :hover
-        background: variables.$gradient
+        background: variablesPdf.$gradient
         > svg
-            color: variables.$text-color
+            color: variablesPdf.$text-color

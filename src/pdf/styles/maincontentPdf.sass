@@ -1,10 +1,10 @@
-@use '../variables'
-@use '../mixins'
+@use 'variablesPdf'
+@use 'mixinsPdf'
 
 #main-content
-    background-color: variables.$bg-color
+    background-color: variablesPdf.$bg-color
     flex: 2 1 0
-    border-radius: variables.$container-border-radius
+    border-radius: variablesPdf.$container-border-radius
     padding: 3rem
 
     section
@@ -12,21 +12,21 @@
         flex-direction: column
 
     h2
-        color: variables.$text-color
+        color: variablesPdf.$text-color
         font-size: 2.2rem
         margin-bottom: 1.3rem
-        @include mixins.center
+        @include mixinsPdf.center
         justify-content: start
         gap: 1rem
 
         &:after
-            @include mixins.gradient-border
+            @include mixinsPdf.gradient-border
 
     p
-        color: variables.$text-color-secondary
+        color: variablesPdf.$text-color-secondary
         margin-bottom: 1rem
         line-height: 1.4rem
 
     .btn
-        @include mixins.btn
+        @include mixinsPdf.btn
         align-self: start

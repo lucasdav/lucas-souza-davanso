@@ -1,6 +1,6 @@
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa'
 
-import '../styles/components/socialnetworks.sass'
+import './styles/socialnetworksPdf.sass'
 
 const socialNetworks = [
     { name: "linkedin", icon: <FaLinkedinIn />, url: 'https://www.linkedin.com/in/lucas-s-davanso-60b7b432/' },

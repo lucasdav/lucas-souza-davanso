@@ -1,4 +1,4 @@
-import '../styles/components/publication.sass'
+import './styles/publicationPdf.sass'
 
 
 const PublicationsContainerPdf = () => {

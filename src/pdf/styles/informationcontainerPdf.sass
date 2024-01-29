@@ -1,17 +1,17 @@
-@use '../variables'
-@use '../mixins'
+@use 'variablesPdf'
+@use 'mixinsPdf'
 
 #information
-    @include mixins.center
+    @include mixinsPdf.center
     flex-direction: column
-    background-color: variables.$bg-color-secondary
+    background-color: variablesPdf.$bg-color-secondary
     padding: 1rem
     margin-bottom: 2rem
     text-align: left
-    border-radius: variables.$card-border-radius
+    border-radius: variablesPdf.$card-border-radius
 
     .info-card
-        @include mixins.center
+        @include mixinsPdf.center
         justify-content: start
         gap: 1rem
         padding-bottom: .8rem
@@ -20,20 +20,20 @@
         width: 100%
 
         h3
-            color: variables.$text-color-secondary
+            color: variablesPdf.$text-color-secondary
             font-size: .8rem
             margin-bottom: .5rem
 
         p
-            color: variables.$text-color
+            color: variablesPdf.$text-color
             font-weight: bold
 
         svg
-            background-color: variables.$bg-color
+            background-color: variablesPdf.$bg-color
             padding: .4rem
             width: 2rem
             height: 2rem
-            border-radius: variables.$card-border-radius
+            border-radius: variablesPdf.$card-border-radius
 
         #phone-icon
             color: #e93b81

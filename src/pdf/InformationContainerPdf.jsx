@@ -1,8 +1,8 @@
 import { AiFillPhone, AiOutlineMail, AiFillEnvironment } from "react-icons/ai"
 
-import '../styles/components/informationcontainer.sass'
+import './styles/informationcontainerPdf.sass'
 
-const InformationContainer = () => {
+const InformationContainerPdf = () => {
 
     return (
         <section id="information">
@@ -31,4 +31,4 @@ const InformationContainer = () => {
     )
 }
 
-export default InformationContainer
+export default InformationContainerPdf

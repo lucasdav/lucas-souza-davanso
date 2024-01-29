@@ -1,4 +1,4 @@
-import '../styles/components/experience.sass'
+import './styles/experiencePdf.sass'
 
 const LanguagesPdf = () => {
     return (

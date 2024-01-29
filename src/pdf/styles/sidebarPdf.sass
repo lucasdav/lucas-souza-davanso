@@ -1,10 +1,10 @@
-@use '../variables'
-@use '../mixins'
+@use 'variablesPdf'
+@use 'mixinsPdf'
 
 #sidebar
-    background-color: variables.$bg-color
+    background-color: variablesPdf.$bg-color
     flex: 1 1 0
-    border-radius: variables.$container-border-radius
+    border-radius: variablesPdf.$container-border-radius
     display: flex
     flex-direction: column
     align-items: center
@@ -15,25 +15,25 @@
     img
         max-width: 70%
         height: 220px
-        border-radius: variables.$container-border-radius
+        border-radius: variablesPdf.$container-border-radius
         position: absolute
         top: -3rem
 
     h1
         width: 100%
-        color: variables.$text-color
+        color: variablesPdf.$text-color
         font-size: 1.5rem
-        background: variables.$gradient
+        background: variablesPdf.$gradient
         -webkit-background-clip: text
         -webkit-text-fill-color: transparent
         margin-top: 11rem
 
     .title
-        color: variables.$text-color-secondary
-        background-color: variables.$bg-color-secondary
-        border-radius: variables.$card-border-radius
+        color: variablesPdf.$text-color-secondary
+        background-color: variablesPdf.$bg-color-secondary
+        border-radius: variablesPdf.$card-border-radius
         margin-top: 1rem
         padding: .8rem 1.2rem
 
     .btn
-        @include mixins.btn
+        @include mixinsPdf.btn

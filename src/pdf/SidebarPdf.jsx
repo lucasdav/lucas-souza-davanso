@@ -1,8 +1,8 @@
 import Avatar from "../img/profile-image.jpeg";
-import SocialNetworks from "./SocialNetworks";
+import SocialNetworksPdf from "./SocialNetworksPdf";
 
-import "../styles/components/sidebar.sass";
-import InformationContainer from "./InformationContainer";
+import "./styles/sidebarPdf.sass";
+import InformationContainerPdf from "./InformationContainerPdf";
 
 const SidebarPdf = () => {
 
@@ -11,8 +11,8 @@ const SidebarPdf = () => {
             <img src={Avatar} alt="Lucas Souza Davanso"/>
             <h1>Lucas S Davanso</h1>
             <p className="title">Software Developer</p>
-            <SocialNetworks/>
-            <InformationContainer/>
+            <SocialNetworksPdf/>
+            <InformationContainerPdf/>
         </aside>
     )
 }

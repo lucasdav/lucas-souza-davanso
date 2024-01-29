@@ -1,5 +1,5 @@
-@use '../variables'
-@use '../mixins'
+@use 'variablesPdf'
+@use 'mixinsPdf'
 
 .experience-container
     margin-bottom: 1rem
@@ -8,20 +8,20 @@
         gap: 1.5rem
 
         .experience-card
-            @include mixins.center
+            @include mixinsPdf.center
             justify-content: left
             gap: 1rem
             margin-bottom: .6rem
             padding: 1rem
             border: 1px solid #333
-            border-radius: variables.$card-border-radius
+            border-radius: variablesPdf.$card-border-radius
 
             h3
-                color: variables.$text-color
+                color: variablesPdf.$text-color
                 margin-bottom: .3rem
 
             h4
-                color: variables.$text-color
+                color: variablesPdf.$text-color
                 margin-bottom: .5rem
                 font-size: .8rem
                 margin-bottom: 2rem
