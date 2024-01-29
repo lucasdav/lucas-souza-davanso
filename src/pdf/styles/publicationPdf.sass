@@ -1,0 +1,30 @@
+@use '../variables'
+@use '../mixins'
+
+.projects-container
+    margin-bottom: 1rem
+
+    .projects-grid
+        gap: 1.5rem
+
+        .projects-card
+            @include mixins.center
+            justify-content: left
+            gap: 1rem
+            margin-bottom: .6rem
+            padding: 1rem
+            border: 1px solid #333
+            border-radius: variables.$card-border-radius
+
+            h3
+                color: variables.$text-color
+                margin-bottom: .3rem
+
+            h4
+                color: variables.$text-color
+                margin-bottom: .5rem
+                font-size: .8rem
+                margin-bottom: 2rem
+
+            .div-button
+                margin-bottom: .8rem

@@ -1,5 +1,5 @@
 import AboutContainer from "./AboutContainer"
-import ProjectsContainer from "./ProjectsContainer"
+import PublicationsContainer from "./PublicationsContainer"
 import TechnologiesContainer from "./TechnologiesContainer"
 
 import "../styles/components/maincontent.sass"
@@ -17,7 +17,7 @@ const MainContent = () => {
             <Languages/>
             <Certifications/>
             <TechnologiesContainer/>
-            <ProjectsContainer/>
+            <PublicationsContainer/>
         </main>
     )
 }
