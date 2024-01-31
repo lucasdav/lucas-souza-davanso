@@ -1,15 +1,29 @@
 @use 'variablesPdf'
 @use 'mixinsPdf'
 
-.experience-container
+.experience-container-pdf
     margin-bottom: 1rem
+    background-color: variablesPdf.$bg-color
+    display: flex
+    flex-direction: column
+    align-items: center
+    text-align: center
 
-    .experience-grid
+    .experience-grid-pdf
         gap: 1.5rem
+        align-items: left
+        text-align: left
+        width: 50rem
 
-        .experience-card
-            @include mixinsPdf.center
-            justify-content: left
+        h2
+            color: variablesPdf.$text-color
+            font-size: 1.5rem
+            background: variablesPdf.$gradient
+            -webkit-background-clip: text
+            -webkit-text-fill-color: transparent
+            margin-top: 1rem
+
+        .experience-card-pdf
             gap: 1rem
             margin-bottom: .6rem
             padding: 1rem
@@ -26,5 +40,5 @@
                 font-size: .8rem
                 margin-bottom: 2rem
 
-            .div-button
+            .div-button-pdf
                 margin-bottom: .8rem
