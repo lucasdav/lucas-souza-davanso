@@ -7,10 +7,10 @@ import InformationContainerPdf from "./InformationContainerPdf";
 const SidebarPdf = () => {
 
     return (
-        <aside id="sidebar">
+        <aside id="sidebar-pdf">
             <img src={Avatar} alt="Lucas Souza Davanso"/>
             <h1>Lucas S Davanso</h1>
-            <p className="title">Software Developer</p>
+            <p className="title-pdf">Software Developer</p>
             <SocialNetworksPdf/>
             <InformationContainerPdf/>
         </aside>

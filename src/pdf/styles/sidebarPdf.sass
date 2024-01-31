@@ -1,7 +1,7 @@
 @use 'variablesPdf'
 @use 'mixinsPdf'
 
-#sidebar
+#sidebar-pdf
     background-color: variablesPdf.$bg-color
     flex: 1 1 0
     border-radius: variablesPdf.$container-border-radius
@@ -14,10 +14,11 @@
 
     img
         max-width: 70%
-        height: 220px
+        height: 198px
         border-radius: variablesPdf.$container-border-radius
         position: absolute
-        top: -3rem
+        top: 3rem,
+        left: 22rem
 
     h1
         width: 100%
@@ -26,14 +27,13 @@
         background: variablesPdf.$gradient
         -webkit-background-clip: text
         -webkit-text-fill-color: transparent
-        margin-top: 11rem
+        margin-top: 1rem
 
-    .title
+    .title-pdf
         color: variablesPdf.$text-color-secondary
         background-color: variablesPdf.$bg-color-secondary
         border-radius: variablesPdf.$card-border-radius
-        margin-top: 1rem
-        padding: .8rem 1.2rem
+        margin-top: .5rem
 
-    .btn
+    .btn-pdf
         @include mixinsPdf.btn

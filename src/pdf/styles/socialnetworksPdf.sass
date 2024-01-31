@@ -1,12 +1,12 @@
 @use 'variablesPdf'
 @use 'mixinsPdf'
 
-#social-networks
+#social-networks-pdf
     @include mixinsPdf.center
     gap: 1rem
     margin: 1rem 0
 
-    .social-btn
+    .social-btn-pdf
         padding: .6rem
         background-color: variablesPdf.$bg-color-secondary
         border-radius: variablesPdf.$card-border-radius
@@ -21,6 +21,6 @@
         color: #111
 
     :hover
-        background: variablesPdf.$gradient
+        background: variablesPdf.$gradientButton
         > svg
-            color: variablesPdf.$text-color
+            color: variablesPdf.$textButton-color

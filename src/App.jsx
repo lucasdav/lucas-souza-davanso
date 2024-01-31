@@ -8,7 +8,7 @@ import './styles/components/app.sass'
 function App() {
 
   return (
-    <div id="portfolio">
+    <div id="portfolio-pdf">
       {/* <Sidebar />
       <MainContent /> */}
       <MainContentPdf/>

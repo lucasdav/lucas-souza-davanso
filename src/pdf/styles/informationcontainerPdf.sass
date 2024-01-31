@@ -1,22 +1,25 @@
 @use 'variablesPdf'
 @use 'mixinsPdf'
 
-#information
+#information-pdf
     @include mixinsPdf.center
-    flex-direction: column
     background-color: variablesPdf.$bg-color-secondary
-    padding: 1rem
-    margin-bottom: 2rem
     text-align: left
     border-radius: variablesPdf.$card-border-radius
 
-    .info-card
+    .lineStyled-pdf
+        border-left: 2px solid #8a8a8a
+        width: 2px
+        height: 4rem
+        margin-right: .8rem
+        margin-left: .8rem
+
+    .info-card-pdf
         @include mixinsPdf.center
         justify-content: start
         gap: 1rem
         padding-bottom: .8rem
         margin-bottom: .8rem
-        border-bottom: 1px solid #444
         width: 100%
 
         h3

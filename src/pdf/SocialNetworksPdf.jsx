@@ -9,9 +9,9 @@ const socialNetworks = [
 
 const SocialNetworksPdf = () => {
     return (
-        <section id="social-networks">
+        <section id="social-networks-pdf">
             {socialNetworks.map((network) => (
-                <a href={network.url} className='social-btn' id={network.name} key={network.name}>
+                <a href={network.url} className='social-btn-pdf' id={network.name} key={network.name}>
                     {network.icon}
                 </a>
             ))}
