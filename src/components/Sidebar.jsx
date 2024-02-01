@@ -8,7 +8,7 @@ import html2pdf from 'html2pdf.js';
 const Sidebar = () => {
 
 const downloadPDF = function() {
-    var element = document.getElementById('portfolio');
+    var element = document.getElementById('main-content-pdf');
 
     const options = {
         margin: [1, 1, 1, 1],

@@ -8,10 +8,14 @@ import './styles/components/app.sass'
 function App() {
 
   return (
-    <div id="portfolio-pdf">
-      {/* <Sidebar />
-      <MainContent /> */}
-      <MainContentPdf/>
+    <div>
+      <div id="portfolio">
+        <Sidebar />
+        <MainContent />
+      </div>
+      <div id="portfolio-pdf">
+        <MainContentPdf />
+      </div>
     </div>
   )
 }
