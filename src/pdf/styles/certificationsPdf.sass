@@ -1,15 +1,21 @@
 @use 'variablesPdf'
 @use 'mixinsPdf'
 
-.certification-container
+.certification-container-pdf
     margin-bottom: 1rem
+    background-color: variablesPdf.$bg-color
+    display: flex
+    flex-direction: column
+    align-items: center
+    text-align: center
 
-    .certification-grid
-        display: flex
-        flex-wrap: wrap
+    .certification-grid-pdf
         gap: 1.5rem
+        align-items: left
+        text-align: left
+        width: 50rem
 
-        .certification-card
+        .certification-card-pdf
             @include mixinsPdf.center
             justify-content: left
             gap: 1rem
@@ -24,9 +30,5 @@
 
             h4
                 color: variablesPdf.$text-color
-                margin-bottom: .5rem
-                font-size: .8rem
-                margin-bottom: 2rem
-
-            .div-button
                 margin-bottom: .8rem
+                font-size: .8rem
