@@ -28,7 +28,7 @@ const downloadPDF = function() {
             <p className="title">Software Developer</p>
             <SocialNetworks/>
             <InformationContainer/>
-            <a href="#" onClick={downloadPDF()} className="btn">
+            <a href="#" onClick={downloadPDF} className="btn">
                 Download currículo
             </a>
         </aside>
