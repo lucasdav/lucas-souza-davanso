@@ -2,6 +2,7 @@ import "./styles/maincontentPdf.sass"
 import SidebarPdf from "./SidebarPdf"
 import AboutContainerPdf from "./AboutContainerPdf"
 import ExperiencePdf from "./ExperiencePdf"
+import EducationPdf from "./EducationPdf"
 
 const MainContentPdf = () => {
     return (
@@ -9,6 +10,7 @@ const MainContentPdf = () => {
             <SidebarPdf/>
             <AboutContainerPdf/>
             <ExperiencePdf/>
+            <EducationPdf/>
         </main>
     )
 }
