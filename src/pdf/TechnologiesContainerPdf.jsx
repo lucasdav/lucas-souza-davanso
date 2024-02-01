@@ -39,19 +39,21 @@ const technologies = [
 
 const TechnologiesContainerPdf = () => {
     return (
-        <section className='technologies-container'>
+        <section className='technologies-container-pdf'>
+            <div className="technologies-grid-pdf">
             <h2>Tecnologias</h2>
-            <div className="technologies-grid">
+            <div className="technologies-card-pdf">
                 {
                     technologies.map((tech) => (
-                        <div id={tech.id} key={tech.id} className="technology-card">
+                        <div id={tech.id} key={tech.id} className="technology-card-pdf">
                             {tech.icon}
-                            <div className="technology-info">
+                            <div className="technology-info-pdf">
                                 <h3>{tech.name}</h3>
                             </div>
                         </div>
                     ))
                 }
+            </div>
             </div>
         </section>
     )

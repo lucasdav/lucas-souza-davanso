@@ -3,11 +3,12 @@ import './styles/publicationPdf.sass'
 
 const PublicationsContainerPdf = () => {
     return (
-        <section className="projects-container">
-            <h2>Publicações</h2>
-            <div className="projects-grid">
-                <div className="projects-card">  
-                    <div className="projects-info">
+        <section className="projects-container-pdf">
+            <div className="projects-grid-pdf">
+                <h2>Publicações</h2>
+                
+                <div className="projects-card-pdf">  
+                    <div className="projects-info-pdf">
                         <h3>Implantação de Automação Residencial para Jardins</h3>
                         <h4> IFSP - Instituto Federal de Educação, Ciência e Tecnologia de São Paulo, Campus Votuporanga · 25/04/2014</h4>
                         <p>
@@ -16,8 +17,8 @@ const PublicationsContainerPdf = () => {
                         </p>
                     </div>
                 </div> 
-                <div className="projects-card">  
-                    <div className="projects-info">
+                <div className="projects-card-pdf">  
+                    <div className="projects-info-pdf">
                         <h3>MEDIDOR DE TREMOR PARA DIAGNOSTICO DE MAL DE PARKINSON</h3>
                         <h4>
                             14º Congresso Nacional de Iniciação Científica CONIC-SEMES P<br/>

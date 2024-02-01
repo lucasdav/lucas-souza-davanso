@@ -5,6 +5,8 @@ import ExperiencePdf from "./ExperiencePdf"
 import EducationPdf from "./EducationPdf"
 import LanguagesPdf from "./LanguagesPdf"
 import CertificationPdf from "./CertificationPdf"
+import TechnologiesContainerPdf from "./TechnologiesContainerPdf"
+import PublicationsContainerPdf from "./PublicationsContainerPdf"
 
 const MainContentPdf = () => {
     return (
@@ -15,6 +17,8 @@ const MainContentPdf = () => {
             <EducationPdf/>
             <LanguagesPdf/>
             <CertificationPdf/>
+            <TechnologiesContainerPdf/>
+            <PublicationsContainerPdf/>
         </main>
     )
 }
