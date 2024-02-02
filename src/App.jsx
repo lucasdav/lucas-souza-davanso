@@ -9,10 +9,10 @@ function App() {
 
   return (
     <div>
-      <div id="portfolio">
+      {/* <div id="portfolio">
         <Sidebar />
         <MainContent />
-      </div>
+      </div> */}
       <div id="portfolio-pdf">
         <MainContentPdf />
       </div>

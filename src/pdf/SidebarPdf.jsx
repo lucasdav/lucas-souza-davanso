@@ -8,10 +8,16 @@ const SidebarPdf = () => {
 
     return (
         <aside id="sidebar-pdf">
-            <img src={Avatar} alt="Lucas Souza Davanso"/>
-            <h1>Lucas S Davanso</h1>
-            <p className="title-pdf">Software Developer</p>
-            <SocialNetworksPdf/>
+            <div className="sidebar-grid-pdf">
+                <div className="image-div">
+                    <img src={Avatar} alt="Lucas Souza Davanso"/>
+                </div>
+                <div>
+                    <h1>Lucas S Davanso</h1>
+                    <p className="title-pdf">Software Developer</p>
+                    <SocialNetworksPdf/>
+                </div>
+            </div>
             <InformationContainerPdf/>
         </aside>
     )
