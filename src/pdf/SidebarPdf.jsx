@@ -9,9 +9,6 @@ const SidebarPdf = () => {
     return (
         <aside id="sidebar-pdf">
             <div className="sidebar-grid-pdf">
-                <div className="image-div">
-                    <img src={Avatar} alt="Lucas Souza Davanso"/>
-                </div>
                 <div>
                     <h1>Lucas S Davanso</h1>
                     <p className="title-pdf">Software Developer</p>

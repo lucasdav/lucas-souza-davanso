@@ -6,7 +6,7 @@ const ExperiencePdf = () => {
             <div className="experience-grid-pdf">
                 <h2>Experiências</h2>
                 
-                <div className="experience-card-pdf">                    
+                <div className="experience-card-pdf" style={{marginBottom: '210px'}}>                    
                     <div className="experience-info-pdf">
                         <h3>Software Developer na ENGESOFTWARE TECNOLOGIA S.A.</h3>
                         <h4>Out. de 2023 - Atual - 4 meses</h4>
