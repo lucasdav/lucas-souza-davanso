@@ -25,7 +25,7 @@ const downloadPDF = function() {
         <aside id="sidebar">
             <img src={Avatar} alt="Lucas Souza Davanso"/>
             <h1>Lucas S Davanso</h1>
-            <p className="title">Software Developer</p>
+            <p className="title">Software Developer | AWS Certified</p>
             <SocialNetworks/>
             <InformationContainer/>
             <a href="#" onClick={downloadPDF} className="btn">
