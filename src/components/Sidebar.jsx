@@ -23,7 +23,7 @@ const downloadPDF = function() {
 
     return (
         <aside id="sidebar">
-            <img src={Avatar} alt="Lucas Souza Davanso"/>
+            <img src={Avatar} alt="Lucas S Davanso"/>
             <h1>Lucas S Davanso</h1>
             <p className="title">Software Developer | AWS Certified</p>
             <SocialNetworks/>
