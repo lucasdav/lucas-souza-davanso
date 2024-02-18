@@ -56,8 +56,8 @@ const ExperiencePdf = () => {
                         <h3>Software Engineer na Indra</h3>
                         <h4>Jul. de 2016 - Jul. de 2017 - 1 ano e 1 mês</h4>
                         
-                        <p>- Desenvolvimento em .Net do sistema web da Mapfre Seguros</p>
-                        <p>- Criação de manuais de usuário para o sistema</p>
+                        <p>- Desenvolvimento em .Net do sistema web para Mapfre</p>
+                        <p>- Criação de manuais de usuário para um sistema no setor de energia elétrica</p>
                         <p>- Suporte e manutenção no banco de dados do sistema SGD</p>
                         
                     </div>
