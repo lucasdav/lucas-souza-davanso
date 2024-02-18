@@ -6,21 +6,20 @@ const ExperiencePdf = () => {
             <div className="experience-grid-pdf">
                 <h2>Experiências</h2>
                 
-                <div className="experience-card-pdf" style={{marginBottom: '210px'}}>                    
+                <div className="experience-card-pdf" style={{marginBottom: '60px'}}>                    
                     <div className="experience-info-pdf">
                         <h3>Software Developer na ENGESOFTWARE TECNOLOGIA S.A.</h3>
-                        <h4>Out. de 2023 - Atual - 4 meses</h4>
+                        <h4>Out. de 2023 - Atual</h4>
                         <p>Criação de um sistema de gerência de carteiras para o banco BNB, utilizando framework React.</p>
-                        <p>- Tabelas dinâmicas expansivas com ordenadores utilizando material-ui react-table</p>
-                        <p>- Impressão de relatórios para download pdf utilizando react-to-pdf</p>
-                        <p>- Componentes dinamicos utilizando material-ui</p>
-                        <p>- Gráficos dinâmicos utilizando material-ui react-charts</p>
-                        <p>- Domínio em testes automatizados (Unitários, Integração e e2e);</p>
-                        <p>- Experiência com Hooks useState, useEffect e useMemo</p>
+                        <p>
+                            - Criação de componentes dinâmicos: gráficos utilizando react-charts, tabelas expansivas com ordenadores, 
+                            filtros e paginação utilizando material-ui react-table
+                        </p>
+                        <p>- Impressão de relatórios para download em pdf, utilizando react-to-pdf</p>
+                        <p>- Domínio em testes automatizados (unitários, integração e e2e);</p>
+                        <p>- Experiência com Hooks useState, useEffect e useMemo, integração via APIs REST utilizando axios</p>
                         <p>- Desenvolvimento em typescript, html, javascript, css</p>
-                        <p>- Integração via APIs Rest</p>
-                        <p>- Versionamento de código com RTC</p>
-                        <p>- Documentação de projetos: azure e figma</p>
+                        <p>- Versionamento de código com RTC, documentação de projetos com azure e figma</p>
                         
                     </div>
                 </div>
