@@ -1,9 +1,11 @@
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa'
+import { TbWorldPlus } from "react-icons/tb";
 
 import './styles/socialnetworksPdf.sass'
 
 const socialNetworks = [
     { name: "linkedin", icon: <FaLinkedinIn />, url: 'https://www.linkedin.com/in/lucas-s-davanso-60b7b432/' },
+    { name: "portfolio", icon: <TbWorldPlus />, url: 'https://lucas-souza-davanso.vercel.app/' },
     { name: "github", icon: <FaGithub />, url: 'https://github.com/lucasdav' }
 ]
 

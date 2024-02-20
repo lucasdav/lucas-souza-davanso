@@ -10,6 +10,9 @@
     text-align: left
     border-radius: variables.$card-border-radius
 
+    .div-button
+        cursor: pointer
+
     .info-card
         @include mixins.center
         justify-content: start
@@ -19,6 +22,9 @@
         border-bottom: 1px solid #444
         width: 100%
 
+        .position-button
+            right: 20px
+            position: relative
         h3
             color: variables.$text-color-secondary
             font-size: .8rem
@@ -36,7 +42,7 @@
             border-radius: variables.$card-border-radius
 
         #phone-icon
-            color: #e93b81
+            color: #008000
 
         #email-icon
             color: #6ab5b9

@@ -1,4 +1,4 @@
-import { AiFillPhone, AiOutlineMail, AiFillEnvironment } from "react-icons/ai"
+import { AiOutlineWhatsApp , AiOutlineMail, AiFillEnvironment } from "react-icons/ai"
 
 import './styles/informationcontainerPdf.sass'
 
@@ -9,10 +9,10 @@ const InformationContainerPdf = () => {
             <div className="info-card-pdf">
                 <div>
                     <div className="flex-div">
-                        <AiFillPhone id="phone-icon" />
+                        <AiOutlineWhatsApp  id="phone-icon" />
                         <h3>Telefone</h3>
                     </div>                    
-                    <p>(17) 99632-5685</p>
+                    <a href="https://wa.me/+5517996325685">(17) 99632-5685</a>
                 </div>
             </div>
             <div className="lineStyled-pdf"></div>
@@ -22,7 +22,7 @@ const InformationContainerPdf = () => {
                         <AiOutlineMail id="email-icon" />
                         <h3>E-mail</h3>
                     </div>
-                    <p>lucassouzadavanso@gmail.com</p>
+                    <a href="mailto:lucassouzadavanso@gmail.com">lucassouzadavanso@gmail.com</a>
                 </div>
             </div>
             <div className="lineStyled-pdf"></div>
