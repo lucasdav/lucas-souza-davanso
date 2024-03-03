@@ -5,7 +5,7 @@ import ExperiencePdf from "./ExperiencePdf"
 import EducationPdf from "./EducationPdf"
 import LanguagesPdf from "./LanguagesPdf"
 import CertificationPdf from "./CertificationPdf"
-import TechnologiesContainerPdf from "./TechnologiesContainerPdf"
+// import TechnologiesContainerPdf from "./TechnologiesContainerPdf"
 import PublicationsContainerPdf from "./PublicationsContainerPdf"
 
 const MainContentPdf = () => {
@@ -17,7 +17,7 @@ const MainContentPdf = () => {
             <EducationPdf/>
             <LanguagesPdf/>
             <CertificationPdf/>
-            <TechnologiesContainerPdf/>
+            {/* <TechnologiesContainerPdf/> */}
             <PublicationsContainerPdf/>
         </main>
     )
