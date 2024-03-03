@@ -10,7 +10,7 @@ const SidebarPdf = () => {
             <div className="sidebar-grid-pdf">
                 <div>
                     <h1>Lucas S Davanso</h1>
-                    <p className="title-pdf">Software Developer | AWS Certified</p>
+                    <p className="title-pdf">Software Developer | AWS Certified | React | Angular</p>
                     <SocialNetworksPdf/>
                 </div>
             </div>

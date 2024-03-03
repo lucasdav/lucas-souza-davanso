@@ -6,18 +6,18 @@ const ExperiencePdf = () => {
             <div className="experience-grid-pdf">
                 <h2>Experiências</h2>
                 
-                <div className="experience-card-pdf" style={{marginBottom: '60px'}}>                    
+                <div className="experience-card-pdf">                    
                     <div className="experience-info-pdf">
                         <h3>Software Developer na ENGESOFTWARE TECNOLOGIA S.A.</h3>
                         <h4>Out. de 2023 - Atual</h4>
                         <p>Criação de um sistema de gerência de carteiras para o banco BNB, utilizando framework React.</p>
                         <p>
                             - Criação de componentes dinâmicos: gráficos utilizando react-charts, tabelas expansivas com ordenadores, 
-                            filtros e paginação utilizando material-ui react-table
+                            filtros e paginação utilizando material-ui
                         </p>
                         <p>- Impressão de relatórios para download em pdf, utilizando react-to-pdf</p>
                         <p>- Domínio em testes automatizados (unitários, integração e e2e);</p>
-                        <p>- Experiência com Hooks useState, useEffect e useMemo, integração via APIs REST utilizando axios</p>
+                        <p>- Experiência com Hooks useState, useEffect, useMemo e useQuery, integração via APIs REST utilizando Axios</p>
                         <p>- Desenvolvimento em typescript, html, javascript, css</p>
                         <p>- Versionamento de código com RTC, documentação de projetos com azure e figma</p>
                         
@@ -51,7 +51,7 @@ const ExperiencePdf = () => {
                         </p>
                     </div>
                 </div>
-                <div className="experience-card-pdf">                    
+                <div className="experience-card-pdf" style={{marginTop: '120px'}}>                    
                     <div className="experience-info-pdf">
                         <h3>Software Engineer na Indra</h3>
                         <h4>Jul. de 2016 - Jul. de 2017 - 1 ano e 1 mês</h4>

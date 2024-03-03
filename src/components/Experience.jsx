@@ -12,14 +12,13 @@ const Experience = () => {
                         <h4>Out. de 2023 - Atual - 4 meses</h4>
                         <p>
                         Criação de um sistema de gerência de carteiras para o banco BNB, utilizando framework React.<br/>
-                        - Tabelas dinâmicas expansivas com ordenadores utilizando material-ui react-table<br/>
+                        - Criação de componentes dinâmicos: gráficos utilizando react-charts, tabelas expansivas com ordenadores, 
+                        filtros e paginação utilizando material-ui<br/>
                         - Impressão de relatórios para download pdf utilizando react-to-pdf<br/>
-                        - Componentes dinamicos utilizando material-ui<br/>
-                        - Gráficos dinâmicos utilizando material-ui react-charts<br/>
                         - Domínio em testes automatizados (Unitários, Integração e e2e);<br/>
-                        - Experiência com Hooks useState, useEffect e useMemo<br/>
+                        - Experiência com Hooks useState, useEffect, useMemo e useQuery<br/>
                         - Desenvolvimento em typescript, html, javascript, css<br/>
-                        - Integração via APIs Rest<br/>
+                        - Integração via APIs REST, utilizando Axios<br/>
                         - Versionamento de código com RTC<br/>
                         - Documentação de projetos: azure e figma<br/>
                         </p>

@@ -6,7 +6,7 @@ const EducationPdf = () => {
             <div className="experience-grid-pdf">
                 <h2>Formação Acadêmica</h2>
 
-                <div className="experience-card-pdf" style={{marginBottom: '150px'}}>                    
+                <div className="experience-card-pdf">                    
                     <div className="experience-info-pdf">
                         <h3>Fiap - Faculdade de Informática e Administração Paulista</h3>
                         <h4>Pós Graduação Especialização em FULL STACK DEVELOPMENT - jan/2024 - dez/2024 - em andamento</h4>
