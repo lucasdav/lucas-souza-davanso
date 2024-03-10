@@ -6,7 +6,6 @@ const Education = () => {
             <h2>Formação Acadêmica</h2>
             <div className="experience-grid">
 
-
                 <div className="experience-card">                    
                     <div className="experience-info">
                         <h3>Fiap - Faculdade de Informática e Administração Paulista</h3>

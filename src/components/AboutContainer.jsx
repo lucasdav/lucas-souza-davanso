@@ -1,9 +1,9 @@
 import '../styles/components/aboutcontainer.sass'
 
-
 const AboutContainer = () => {
     return (
         <section className="about-container">
+            
             <h2>Sobre</h2>
                 <p>
                     - Me formei em Engenharia da Computação pela Unifev, possuo certificação AWS, estou atualmente cursando uma 
