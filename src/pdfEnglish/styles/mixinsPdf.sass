@@ -1,0 +1,31 @@
+@use 'variablesPdf'
+
+@mixin center
+    display: flex
+    justify-content: center
+    align-items: center
+
+@mixin left
+    display: flex
+    justify-content: left
+    align-items: left
+
+@mixin btn
+    padding: 1rem 1.2rem
+    color: variablesPdf.$text-color
+    background: variablesPdf.$gradient
+    text-decoration: none
+    border-radius: 3rem
+
+@mixin btn-pdf
+    color: variablesPdf.$link-color
+    background: variablesPdf.$bgButtonPdf
+    text-decoration: none
+    border-radius: 3rem
+    font-weight: bold
+
+@mixin gradient-border
+    content: ""
+    background: variablesPdf.$gradient
+    height: 3px
+    width: 30%

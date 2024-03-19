@@ -1,0 +1,26 @@
+@use 'variablesPdf'
+@use 'mixinsPdf'
+
+#main-content-pdf
+    background-color: variablesPdf.$bg-color
+    border-radius: variablesPdf.$container-border-radius
+    padding: 3rem
+
+    h2
+        color: variablesPdf.$text-color
+        font-size: 2.2rem
+        margin-bottom: 1.3rem
+        @include mixinsPdf.center
+        justify-content: start
+        gap: 1rem
+
+        &:after
+            @include mixinsPdf.gradient-border
+
+    p
+        color: variablesPdf.$text-color-secondary
+        line-height: 1.4rem
+
+    .btn
+        @include mixinsPdf.btn-pdf
+        align-self: start

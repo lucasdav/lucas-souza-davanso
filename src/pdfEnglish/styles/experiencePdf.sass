@@ -1,0 +1,46 @@
+@use 'variablesPdf'
+@use 'mixinsPdf'
+
+.experience-container-pdf
+    background-color: variablesPdf.$bg-color
+    display: flex
+    flex-direction: column
+    align-items: center
+    text-align: center
+    padding-bottom: 1rem
+
+    .experience-grid-pdf
+        gap: 1.5rem
+        align-items: left
+        text-align: left
+        width: 44rem
+
+        h2
+            font-size: 1.5rem
+            margin-top: 1rem
+            margin-bottom: .8rem
+
+        .experience-card-pdf
+            gap: 1rem
+            margin-bottom: .6rem
+            padding: 1rem
+            border: 1px solid #333
+            border-radius: variablesPdf.$card-border-radius
+
+            h3
+                color: variablesPdf.$text-color
+                margin-bottom: .3rem
+
+            h4
+                color: variablesPdf.$text-color
+                margin-bottom: .5rem
+                font-size: .8rem
+                margin-bottom: .8rem
+
+            .div-button-pdf
+                @include mixinsPdf.btn-pdf
+                margin-bottom: .8rem
+
+            p
+                padding: 0.1rem
+                letter-spacing: 0.16px

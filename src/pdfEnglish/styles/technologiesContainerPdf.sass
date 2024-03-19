@@ -1,0 +1,80 @@
+@use 'variablesPdf'
+@use 'mixinsPdf'
+
+.technologies-container-pdf
+    padding-top: 2rem
+    padding-bottom: 1rem
+    background-color: variablesPdf.$bg-color
+    display: flex
+    flex-direction: column
+    align-items: center
+    text-align: center
+
+    .technologies-grid-pdf
+        gap: 1.5rem
+        align-items: left
+        text-align: left
+        width: 44rem
+
+        h2
+            font-size: 1.5rem
+            margin-top: 1rem
+            margin-bottom: .8rem
+
+        .technologies-card-pdf
+            display: flex
+            flex-wrap: wrap
+            gap: 1.5rem
+
+            .technology-card-pdf
+                @include mixinsPdf.center
+                gap: 1rem
+                padding: 1rem
+                border: 1px solid #333
+                border-radius: variablesPdf.$card-border-radius
+
+                h3
+                    color: variablesPdf.$text-color
+
+                svg
+                    font-size: 3rem
+
+        #html
+            svg
+                color: #e44d26
+        #css
+            svg
+                color: #1572b6
+        #js
+            svg
+                color: #f0db4f
+        #node
+            svg
+                color: #83cd29
+        #mysql
+            svg
+                color: #00618a
+        #react
+            svg
+                color: #61dafb
+        #angular
+            svg
+                color: #DD0031
+        #typescript
+            svg
+                color: #3178C6
+        #dotnet
+            svg
+                color: #512BD4
+        #sql
+            svg
+                color: #EB7000
+        #java
+            svg
+                color: #0070D1
+        #aws
+            svg
+                color: #F69F00
+        #vue
+            svg
+                color: #4DBA87

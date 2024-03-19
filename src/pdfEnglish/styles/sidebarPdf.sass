@@ -1,0 +1,35 @@
+@use 'variablesPdf'
+@use 'mixinsPdf'
+
+#sidebar-pdf
+    background-color: variablesPdf.$bg-color
+    flex: 1 1 0
+    display: flex
+    flex-direction: column
+    align-items: center
+    text-align: center
+    position: relative
+
+    .sidebar-grid-pdf
+        display: flex
+        width: 100%
+        justify-content: center
+        align-items: center
+
+        .image-div
+            margin-right: 1rem
+
+            img
+                height: 170px
+                border-radius: variablesPdf.$container-border-radius
+
+    h1
+        width: 100%
+
+    .title-pdf
+        color: variablesPdf.$text-color-secondary
+        background-color: variablesPdf.$bg-color-secondary
+        border-radius: variablesPdf.$card-border-radius
+
+    .btn-pdf
+        @include mixinsPdf.btn
