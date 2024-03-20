@@ -59,7 +59,7 @@ const Sidebar = () => {
         <aside id="sidebar">
             <img src={Avatar} alt="Lucas S Davanso" />
             <h1>Lucas S Davanso</h1>
-            <p className="title">Software Developer | AWS Certified | React | Angular</p>
+            <p className="title">Full Stack Developer | AWS Certified | React | Angular | Node</p>
             <SocialNetworks />
             <InformationContainer />
             <a href="#" onClick={handleOpen} className="btn">
