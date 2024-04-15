@@ -90,6 +90,20 @@ const Certifications = () => {
                         </div>
                     </div>
                 </div>
+                <div className="certification-card">
+                    <div className="certification-info">
+                        <h3>GERENCIE APLICAÇÕES REACT COM TYPESCRIPT</h3>
+                        <h4>Abril de 2024</h4>
+                        <div className='div-button'>
+                            <a
+                                href="https://cursos.alura.com.br/user/lucasDavanso/degree-react-ts-v478027-478027/certificate"
+                                className="btn"
+                            >
+                                mostrar credencial
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     )
