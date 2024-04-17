@@ -1,4 +1,4 @@
-import '../styles/components/certifications.sass'
+import '../../styles/components/certifications.sass'
 
 const Certifications = () => {
     return (

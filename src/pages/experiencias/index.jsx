@@ -1,4 +1,4 @@
-import '../styles/components/experience.sass'
+import '../../styles/components/experience.sass'
 
 const Experience = () => {
     return (

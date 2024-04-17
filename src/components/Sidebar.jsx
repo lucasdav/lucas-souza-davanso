@@ -62,9 +62,11 @@ const Sidebar = () => {
             <p className="title">Full Stack Developer | AWS Certified | React | Angular | Node</p>
             <SocialNetworks />
             <InformationContainer />
-            <a href="#" onClick={handleOpen} className="btn">
-                Download CV
-            </a>
+            <div className="btn-curriculum">
+                <a href="#" onClick={handleOpen} className="btn">
+                    <strong>Download CV</strong>
+                </a>
+            </div>
             <Modal
                 open={open}
                 onClose={handleClose}

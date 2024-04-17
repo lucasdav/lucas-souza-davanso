@@ -7,7 +7,7 @@ import {
     DiReact,
     DiAngularSimple,
     DiDotnet,
-    DiJava  
+    DiJava
 } from 'react-icons/di'
 
 import { BiLogoTypescript } from "react-icons/bi";
@@ -19,13 +19,13 @@ import { FaAws, FaVuejs } from "react-icons/fa";
 
 
 
-import '../styles/components/technologiesContainer.sass'
+import '../../styles/components/technologiesContainer.sass'
 
 const technologies = [
     { id: "html", name: "HTML5", icon: <DiHtml5 /> },
     { id: "css", name: "CSS3", icon: <DiCss3 /> },
     { id: "js", name: "JavaScript", icon: <DiJsBadge /> },
-    { id: "typescript", name: "Typescript", icon: <BiLogoTypescript  /> },
+    { id: "typescript", name: "Typescript", icon: <BiLogoTypescript /> },
     { id: "react", name: "React", icon: <DiReact /> },
     { id: "angular", name: "Angular", icon: <DiAngularSimple /> },
     { id: "dotnet", name: ".Net", icon: <DiDotnet /> },
@@ -35,7 +35,7 @@ const technologies = [
     { id: "sql", name: "SQL", icon: <PiFileSqlFill /> },
     { id: "aws", name: "AWS", icon: <FaAws /> },
     { id: "vue", name: "Vue.js", icon: <FaVuejs /> },
-  ];
+];
 
 const TechnologiesContainer = () => {
     return (

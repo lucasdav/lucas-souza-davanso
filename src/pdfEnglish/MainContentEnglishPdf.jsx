@@ -10,7 +10,7 @@ import PublicationsContainerPdf from "./PublicationsContainerPdf"
 
 const MainContentEnglishPdf = () => {
     return (
-        <main id="main-content-english-pdf">
+        <div id="main-content-english-pdf">
             <SidebarPdf />
             <AboutContainerPdf />
             <ExperiencePdf />
@@ -19,7 +19,7 @@ const MainContentEnglishPdf = () => {
             <CertificationPdf />
             {/* <TechnologiesContainerPdf/> */}
             <PublicationsContainerPdf />
-        </main>
+        </div>
     )
 }
 

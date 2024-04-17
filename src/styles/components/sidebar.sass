@@ -2,7 +2,6 @@
 @use '../mixins'
 
 #sidebar
-    background-color: variables.$bg-color
     flex: 1 1 0
     border-radius: variables.$container-border-radius
     display: flex
@@ -10,14 +9,14 @@
     align-items: center
     text-align: center
     position: relative
-    padding: 2rem 0
+    padding: 1rem 0
 
     img
         max-width: 70%
         height: 150px
         border-radius: variables.$container-border-radius
         position: absolute
-        top: 3rem
+        top: 2rem
 
     h1
         width: 100%
@@ -35,5 +34,9 @@
         margin-top: 1rem
         padding: .8rem 1.2rem
 
-    .btn
-        @include mixins.btn
+    .btn-curriculum
+        .btn
+            @include mixins.small-btn
+
+        :hover
+            background: variables.$gradient-hover
