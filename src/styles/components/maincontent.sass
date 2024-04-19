@@ -4,7 +4,7 @@
 #main-content
     flex: 2 1 0
     border-radius: variables.$container-border-radius
-    padding: 2rem
+    padding: 1rem
 
     section
         display: flex
@@ -28,3 +28,7 @@
     .btn
         @include mixins.btn
         align-self: start
+
+@media screen and (max-width: 600px)
+    #main-content
+        padding-top: 0

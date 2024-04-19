@@ -4,7 +4,7 @@ const AboutContainer = () => {
     return (
         <section className="about-container">
 
-            <h2>Sobre</h2>
+            <h2>Sobre mim</h2>
             <p>
                 - Me formei em Engenharia da Computação pela Unifev, possuo certificação AWS, estou atualmente cursando uma
                 especialização em Desenvolvimento Full Stack pela FIAP. Com experiência em todo o ciclo de vida de

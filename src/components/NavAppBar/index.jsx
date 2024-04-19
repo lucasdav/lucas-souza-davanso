@@ -12,7 +12,8 @@ import { Link } from 'react-router-dom';
 import { MenuItem } from '@mui/material';
 
 const pages = [
-    { label: 'Sobre', to: '/sobre' },
+    { label: 'Home', to: '/' },
+    { label: 'Sobre mim', to: '/sobre' },
     { label: 'Experiências', to: '/experiencias' },
     { label: 'Formação Acadêmica', to: '/formacao-academica' },
     { label: 'Idiomas', to: '/idiomas' },
