@@ -1,6 +1,7 @@
 import '../../styles/components/publication.sass'
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import { Accordion, AccordionSummary, Box, Typography } from '@mui/material'
+import NewspaperIcon from '@mui/icons-material/Newspaper';
 
 const PublicationsContainer = () => {
     return (
@@ -11,7 +12,8 @@ const PublicationsContainer = () => {
                     aria-controls="panel2-content"
                     id="panel2-header"
                 >
-                    <Typography variant='h2'>Publicações</Typography>
+                    <NewspaperIcon sx={{ color: '#ffffff' }} />
+                    <Typography variant='h2' fontWeight={'bold'} marginLeft={2}>Publicações</Typography>
                 </AccordionSummary>
                 <Box margin={2}>
                     <div className="projects-grid">

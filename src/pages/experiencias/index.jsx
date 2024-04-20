@@ -1,6 +1,7 @@
 import '../../styles/components/experience.sass'
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import { Accordion, AccordionSummary, Box, Typography } from '@mui/material'
+import DevicesIcon from '@mui/icons-material/Devices';
 
 const Experience = () => {
     return (
@@ -11,7 +12,8 @@ const Experience = () => {
                     aria-controls="panel2-content"
                     id="panel2-header"
                 >
-                    <Typography variant='h2'>Experiências</Typography>
+                    <DevicesIcon sx={{ color: '#ffffff' }} />
+                    <Typography variant='h2' fontWeight={'bold'} marginLeft={2}>Experiências</Typography>
                 </AccordionSummary>
                 <Box margin={2}>
 

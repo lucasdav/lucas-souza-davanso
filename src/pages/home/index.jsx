@@ -22,7 +22,7 @@ const Home = () => {
         bgcolor: 'background.paper',
         border: '2px solid #000',
         borderRadius: 6,
-        backgroundColor: '#d3eeedf2',
+        backgroundColor: '#003C43',
         boxShadow: 24,
         p: 4,
     };

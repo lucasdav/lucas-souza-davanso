@@ -17,9 +17,7 @@ import { PiFileSqlFill } from "react-icons/pi";
 import { FaAws, FaVuejs } from "react-icons/fa";
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import { Accordion, AccordionSummary, Box, Typography } from '@mui/material'
-
-
-
+import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
 
 import '../../styles/components/technologiesContainer.sass'
 
@@ -48,7 +46,8 @@ const TechnologiesContainer = () => {
                     aria-controls="panel2-content"
                     id="panel2-header"
                 >
-                    <Typography variant='h2'>Minhas Habilidades</Typography>
+                    <RocketLaunchIcon sx={{ color: '#ffffff' }} />
+                    <Typography variant='h2' fontWeight={'bold'} marginLeft={2}>Minhas Habilidades</Typography>
                 </AccordionSummary>
                 <Box margin={2}>
                     <div className="technologies-grid">

@@ -1,6 +1,7 @@
 import '../../styles/components/certifications.sass'
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import { Accordion, AccordionSummary, Box, Typography } from '@mui/material'
+import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';
 
 const Certifications = () => {
     return (
@@ -11,7 +12,8 @@ const Certifications = () => {
                     aria-controls="panel2-content"
                     id="panel2-header"
                 >
-                    <Typography variant='h2'>Certificados</Typography>
+                    <WorkspacePremiumIcon sx={{ color: '#ffffff' }} />
+                    <Typography variant='h2' fontWeight={'bold'} marginLeft={2}>Certificados</Typography>
                 </AccordionSummary>
                 <Box margin={2}>
 

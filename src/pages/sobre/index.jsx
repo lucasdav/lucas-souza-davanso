@@ -1,6 +1,7 @@
 import { Accordion, AccordionSummary, Box, Typography } from '@mui/material'
 import '../../styles/components/aboutcontainer.sass'
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
+import AutoStoriesIcon from '@mui/icons-material/AutoStories';
 
 const About = () => {
     return (
@@ -11,7 +12,8 @@ const About = () => {
                     aria-controls="panel2-content"
                     id="panel2-header"
                 >
-                    <Typography variant='h2'>Sobre mim</Typography>
+                    <AutoStoriesIcon sx={{ color: '#ffffff' }} />
+                    <Typography variant='h2' fontWeight={'bold'} marginLeft={2}>Sobre mim</Typography>
                 </AccordionSummary>
                 <Box margin={2}>
                     <p>

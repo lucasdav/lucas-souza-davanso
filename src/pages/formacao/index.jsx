@@ -1,6 +1,7 @@
 import { Accordion, AccordionSummary, Box, Typography } from '@mui/material'
 import '../../styles/components/experience.sass'
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
+import SchoolIcon from '@mui/icons-material/School';
 
 const Education = () => {
     return (
@@ -11,7 +12,8 @@ const Education = () => {
                     aria-controls="panel2-content"
                     id="panel2-header"
                 >
-                    <Typography variant='h2'>Formação Acadêmica</Typography>
+                    <SchoolIcon sx={{ color: '#ffffff' }} />
+                    <Typography variant='h2' fontWeight={'bold'} marginLeft={2}>Formação Acadêmica</Typography>
                 </AccordionSummary>
                 <Box margin={2}>
                     <div className="experience-grid">
