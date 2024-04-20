@@ -15,6 +15,8 @@ import { BiLogoTypescript } from "react-icons/bi";
 import { PiFileSqlFill } from "react-icons/pi";
 
 import { FaAws, FaVuejs } from "react-icons/fa";
+import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
+import { Accordion, AccordionSummary, Box, Typography } from '@mui/material'
 
 
 
@@ -40,19 +42,30 @@ const technologies = [
 const TechnologiesContainer = () => {
     return (
         <section className='technologies-container'>
-            <h2>Tecnologias</h2>
-            <div className="technologies-grid">
-                {
-                    technologies.map((tech) => (
-                        <div id={tech.id} key={tech.id} className="technology-card">
-                            {tech.icon}
-                            <div className="technology-info">
-                                <h3>{tech.name}</h3>
-                            </div>
-                        </div>
-                    ))
-                }
-            </div>
+            <Accordion sx={{ background: '#030637' }}>
+                <AccordionSummary
+                    expandIcon={<ArrowDownwardIcon sx={{ color: '#ffffff' }} />}
+                    aria-controls="panel2-content"
+                    id="panel2-header"
+                >
+                    <Typography variant='h2'>Minhas Habilidades</Typography>
+                </AccordionSummary>
+                <Box margin={2}>
+                    <div className="technologies-grid">
+                        {
+                            technologies.map((tech) => (
+                                <div id={tech.id} key={tech.id} className="technology-card">
+                                    {tech.icon}
+                                    <div className="technology-info">
+                                        <h3>{tech.name}</h3>
+                                    </div>
+                                </div>
+                            ))
+                        }
+                    </div>
+                </Box>
+
+            </Accordion>
         </section>
     )
 }

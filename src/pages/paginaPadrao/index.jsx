@@ -4,17 +4,33 @@ import MainContentEnglishPdf from '../../pdfEnglish/MainContentEnglishPdf'
 import "./styles.sass";
 
 import "../../styles/components/maincontent.sass"
-import { Outlet } from "react-router-dom"
+import Home from '../home';
+import About from '../sobre';
+import Experience from '../experiencias';
+import Education from '../formacao';
+import Certifications from '../certificados';
+import TechnologiesContainer from '../tecnologias';
+import PublicationsContainer from '../publicacoes';
 
 const MainContent = () => {
     return (
-        <>
-            <div className='main'>
-                <div id="portfolio" className='sidebar-aside'>
+        <main>
+            <div className='flex-section'>
+                <div id="portfolio" className='left-section'>
                     <Sidebar />
                 </div>
-                <div id="main-content">
-                    <Outlet />
+                <div className="main-content">
+                    <Home />
+                </div>
+            </div>
+            <div className='flex-section'>
+                <div className="main-content">
+                    <About />
+                    <Experience />
+                    <Education />
+                    <PublicationsContainer />
+                    <Certifications />
+                    <TechnologiesContainer />
                 </div>
             </div>
 
@@ -24,7 +40,7 @@ const MainContent = () => {
             <div id="portfolio-pdf">
                 <MainContentEnglishPdf />
             </div>
-        </>
+        </main>
     )
 }
 

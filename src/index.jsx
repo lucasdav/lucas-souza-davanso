@@ -2,10 +2,10 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 
 import './styles/main.sass'
-import Router from './routes';
+import MainContent from './pages/paginaPadrao';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Router />
+    <MainContent />
   </React.StrictMode>,
 )

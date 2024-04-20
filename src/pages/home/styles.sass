@@ -1,5 +1,17 @@
+@use '../../styles/variables'
+@use '../../styles/mixins'
+
+.btn-curriculum
+    margin-top: 2rem
+    margin-bottom: 2rem
+    .btn
+        @include mixins.small-btn
+
+        :hover
+            background: variables.$gradient-hover
+
 @media screen and (min-width: 800px)
     .home-section
         width: 60%
         margin-left: 15%
-        margin-top: 8%
+        margin-top: 20%

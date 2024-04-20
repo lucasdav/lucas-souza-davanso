@@ -10,6 +10,7 @@
     text-align: center
     position: relative
     padding: 1rem 0
+    padding-bottom: 0
 
     img
         max-width: 70%
@@ -22,7 +23,7 @@
         width: 100%
         color: variables.$text-color
         font-size: 1.5rem
-        background: variables.$gradient
+        background: variables.$text-color
         -webkit-background-clip: text
         -webkit-text-fill-color: transparent
         margin-top: 11rem
@@ -33,10 +34,3 @@
         border-radius: variables.$card-border-radius
         margin-top: 1rem
         padding: .8rem 1.2rem
-
-    .btn-curriculum
-        .btn
-            @include mixins.small-btn
-
-        :hover
-            background: variables.$gradient-hover

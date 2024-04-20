@@ -1,10 +1,11 @@
 @use '../variables'
 @use '../mixins'
 
-#main-content
+.main-content
     flex: 2 1 0
     border-radius: variables.$container-border-radius
     padding: 1rem
+    padding-top: 0
 
     section
         display: flex
@@ -18,9 +19,6 @@
         justify-content: start
         gap: 1rem
 
-        &:after
-            @include mixins.gradient-border
-
     p
         color: variables.$text-color-secondary
         line-height: 1.4rem
@@ -28,7 +26,3 @@
     .btn
         @include mixins.btn
         align-self: start
-
-@media screen and (max-width: 600px)
-    #main-content
-        padding-top: 0
