@@ -12,8 +12,8 @@ const PublicationsContainer = () => {
                     aria-controls="panel2-content"
                     id="panel2-header"
                 >
-                    <NewspaperIcon sx={{ color: '#ffffff' }} />
-                    <Typography variant='h2' fontWeight={'bold'} marginLeft={2}>Publicações</Typography>
+                    <NewspaperIcon sx={{ color: '#ffffff', marginTop: 'inherit' }} />
+                    <Typography variant='h2' fontWeight={'bold'} marginLeft={2} marginTop={'inherit'}>Publicações</Typography>
                 </AccordionSummary>
                 <Box margin={2}>
                     <div className="projects-grid">

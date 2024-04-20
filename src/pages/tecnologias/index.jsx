@@ -46,8 +46,8 @@ const TechnologiesContainer = () => {
                     aria-controls="panel2-content"
                     id="panel2-header"
                 >
-                    <RocketLaunchIcon sx={{ color: '#ffffff' }} />
-                    <Typography variant='h2' fontWeight={'bold'} marginLeft={2}>Minhas Habilidades</Typography>
+                    <RocketLaunchIcon sx={{ color: '#ffffff', marginTop: 'inherit' }} />
+                    <Typography variant='h2' fontWeight={'bold'} marginLeft={2} marginTop={'inherit'}>Minhas Habilidades</Typography>
                 </AccordionSummary>
                 <Box margin={2}>
                     <div className="technologies-grid">

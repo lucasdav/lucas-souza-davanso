@@ -12,8 +12,8 @@ const Experience = () => {
                     aria-controls="panel2-content"
                     id="panel2-header"
                 >
-                    <DevicesIcon sx={{ color: '#ffffff' }} />
-                    <Typography variant='h2' fontWeight={'bold'} marginLeft={2}>Experiências</Typography>
+                    <DevicesIcon sx={{ color: '#ffffff', marginTop: 'inherit' }} />
+                    <Typography variant='h2' fontWeight={'bold'} marginLeft={2} marginTop={'inherit'}>Experiências</Typography>
                 </AccordionSummary>
                 <Box margin={2}>
 

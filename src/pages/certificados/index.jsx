@@ -12,8 +12,8 @@ const Certifications = () => {
                     aria-controls="panel2-content"
                     id="panel2-header"
                 >
-                    <WorkspacePremiumIcon sx={{ color: '#ffffff' }} />
-                    <Typography variant='h2' fontWeight={'bold'} marginLeft={2}>Certificados</Typography>
+                    <WorkspacePremiumIcon sx={{ color: '#ffffff', marginTop: 'inherit' }} />
+                    <Typography variant='h2' fontWeight={'bold'} marginLeft={2} marginTop={'inherit'}>Certificados</Typography>
                 </AccordionSummary>
                 <Box margin={2}>
 

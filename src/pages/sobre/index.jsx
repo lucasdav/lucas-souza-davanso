@@ -12,8 +12,8 @@ const About = () => {
                     aria-controls="panel2-content"
                     id="panel2-header"
                 >
-                    <AutoStoriesIcon sx={{ color: '#ffffff' }} />
-                    <Typography variant='h2' fontWeight={'bold'} marginLeft={2}>Sobre mim</Typography>
+                    <AutoStoriesIcon sx={{ color: '#ffffff', marginTop: 'inherit' }} />
+                    <Typography variant='h2' fontWeight={'bold'} marginLeft={2} marginTop={'inherit'}>Sobre mim</Typography>
                 </AccordionSummary>
                 <Box margin={2}>
                     <p>
