@@ -58,7 +58,7 @@ const Home = () => {
             <h2>Eleve seu negócio digital a outro nível com uma aplicação de qualidade!</h2>
             <p>
                 Olá! Sou Lucas Davanso, devenvolvedor Full Stack, especialista em frontend utilizando
-                React, Angular, Vue, HTML, CSS e Javascript. Ajudo pequenos negócios e deigners a colocarem
+                React, Angular, Vue, HTML, CSS e Javascript. Ajudo pequenos negócios e designers a colocarem
                 em prática boas ideias.
             </p>
             <div className="btn-curriculum">
